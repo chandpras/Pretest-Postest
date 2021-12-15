@@ -4,14 +4,12 @@ using namespace std;
 
 int main (){
 	
-	//data type
 	string a;
 	double b;
 	double c;
 	double d;
 	double e;
 	
-	//input
 	cout<<"===================================================="<<endl;
 	cout<<"Masukkan data anda"<<endl<<endl;
 	cout<<"Nama			= ";
@@ -23,13 +21,11 @@ int main (){
 	cout<<"Lama Peminjaman		= ";
 	cin>>d;
 	
-	//operasi
 	d = d*12.0;
 	c = c/100.0;
 	e = c*d;
 	e = e*b;
 	
-	//output
 	cout<<"===================================================="<<endl;
 	cout<<"Hasil Data Anda"<<endl<<endl;
 	cout<<"Nama			= "<<a<<endl;
