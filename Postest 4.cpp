@@ -4,12 +4,10 @@ using namespace std;
 int main()
   {
   	
-//data type
   	int n;
   	float jumlah, rata;
   	int matriks[5];
   
-//input
 	cout<<"=================================="<<endl;
   	cout<<"Masukkan jumlah data = ";
   	cin>>n;
@@ -20,7 +18,6 @@ int main()
 	  	rata=jumlah/n;
 	}
   
-//output
 	cout<<"=================================="<<endl;
 	cout<<"Output nilai = "<<endl;
 	for(int i=0;i<n;i++){
